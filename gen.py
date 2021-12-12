@@ -18,7 +18,7 @@ def pre(out):
         "    global _start",
         "",
         "_start:",
-        "   mov qword [memptr], mem",
+        "    mov qword [memptr], mem",
     )), file=out)
 
 def post(out):
