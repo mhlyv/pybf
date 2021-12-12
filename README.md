@@ -25,7 +25,7 @@ section .text
     global _start
 
 _start:
-   mov qword [memptr], mem
+    mov qword [memptr], mem
     mov qword rax, [memptr]
     inc qword [rax]
 
